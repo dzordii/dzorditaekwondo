@@ -212,6 +212,14 @@ header.shadow {
   object-position: center;
   z-index: -1;
 }
+
+.slide-description {
+  margin: 0;
+  text-align: center; /* Centraliza o texto */
+  max-width: 100%; /* Garante que o parágrafo ocupe a largura total disponível */
+  display: inline-block; /* Ajusta o comportamento do parágrafo */
+}
+
 .home-overlay {
   position: absolute;
   top: 0;
@@ -221,10 +229,20 @@ header.shadow {
   background: linear-gradient(
     74deg,
     rgba(255, 255, 255, 0.8) 50%,
-    rgb(23, 27, 68, 14%)
+    rgba(23, 27, 68, 0.14)
   );
   z-index: 200;
 }
+
+.home-text {
+  text-align: center; /* Centraliza todos os textos dentro de home-text */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Garante que todo o conteúdo da home-text fique centralizado */
+  justify-content: center;
+}
+
+
 .swiper-pagination-bullet {
   width: 6px !important;
   height: 6px !important;
@@ -239,12 +257,14 @@ header.shadow {
 .home-text {
   z-index: 200;
 }
+
 .slide-title {
   position: relative;
   font-size: 2.1rem;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 /* .slide-title::after,
 .faq-title::after {
   content: "";
@@ -255,6 +275,7 @@ header.shadow {
   height: 3px;
   background: black;
 } */
+
 .slide-title span {
   color: black;
 }
