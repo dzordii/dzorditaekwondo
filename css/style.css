@@ -331,10 +331,17 @@ header.shadow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 2rem;
+  justify-content: center;
 }
 .game-box {
   background: var(--container-color);
   border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Garante que o conteúdo da div fique centralizado */
+  justify-content: center; /* Centraliza verticalmente o conteúdo */
+  padding: 20px; /* Adiciona um espaçamento interno */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Um pouco de sombra para destaque */
 }
 .game-text {
   padding: 15px;
@@ -342,9 +349,18 @@ header.shadow {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
+}
+.descripts {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .game-box-img {
-  width: 100%;
+  width: 180px;
   height: 200px;
   object-fit: cover;
   object-position: center;
@@ -616,6 +632,7 @@ header.shadow {
   align-items: center;
   text-align: center;
   background: var(--container-color);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 0.4rem;
   margin-bottom: 5rem;
 }
