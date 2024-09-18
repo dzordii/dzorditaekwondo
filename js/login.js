@@ -1,7 +1,7 @@
 document.getElementById('loginBtn').addEventListener('click', function() {
     // Array de usuários com nome e senha
     const users = [
-        { username: 'duda', password: 'duda' },
+        { username: 'aluno', password: 'aluno123' },
         { username: 'admin', password: 'admin' },
         { username: 'aluno2', password: 'abcdef' },
         { username: 'aluno3', password: '7891011' },
