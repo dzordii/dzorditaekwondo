@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-home:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+/* Media Queries para garantir responsividade */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 15px;
+        max-width: 70%; /* Preenche a tela no celular */
+    }
+}
