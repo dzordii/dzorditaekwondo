@@ -34,10 +34,31 @@ document.getElementById('loginBtn').addEventListener('click', function() {
     const user = users.find(user => user.username === username && user.password === password);
 
     if (user) {
-        // Login correto, redireciona para a página de matérias
+        // Salva o nome de usuário no LocalStorage
+        localStorage.setItem('loggedInUser', username);
+
+        // Redireciona para a página de matérias
         window.location.href = 'material.html'; // Substitua pelo nome da sua página de matérias
     } else {
         // Mostra uma mensagem de erro
         document.getElementById('error-msg').style.display = 'block';
     }
+});
+
+// Verifica se o usuário já está logado
+window.onload = function() {
+    const loggedInUser = localStorage.getItem('loggedInUser');
+    
+    if (loggedInUser) {
+        // Se o usuário já estiver logado, redireciona para a página de matérias
+        window.location.href = 'material.html'; // Substitua pelo nome da sua página de matérias
+    }
+};
+
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    // Remove o nome de usuário do LocalStorage
+    localStorage.removeItem('loggedInUser');
+
+    // Redireciona para a página de login
+    window.location.href = 'login.html'; // Substitua pelo nome da sua página de login
 });
