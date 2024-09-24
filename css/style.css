@@ -788,7 +788,11 @@ header.shadow {
   font-weight: 500;
   background: var(--text-color2);
   margin-bottom: 1.5rem;
+  width: 200px; /* Ajuste este valor conforme necessário */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  border-radius: 0.5rem;
 }
+
 .plan-btn:hover {
   background:rgb(3, 3, 136);
   color: rgb(255, 255, 255);
