@@ -626,6 +626,11 @@ header.shadow {
 .copyright p {
   font-size: 0.82rem;
 }
+
+.copy {
+  margin-top: -1rem;
+}
+
 .payments .bx {
   font-size: 25px;
 }
