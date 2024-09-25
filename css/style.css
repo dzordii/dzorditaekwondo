@@ -798,7 +798,7 @@ header.shadow {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-weight: 500;
-  background: var(--text-color2);
+  background: #005bb5;
   margin-bottom: 1.5rem;
   width: 200px; /* Ajuste este valor conforme necessário */
   text-align: center; /* Centraliza o texto dentro do botão */
