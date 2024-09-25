@@ -349,13 +349,15 @@ header.shadow {
   transform: scale(1.05);
   transition: 0.4s all ease-in-out;
 }
-.ser-box .bx {
-  font-size: 1.7rem;
+
+.ser-box img {
+  width: 180px;
+  font-size: 0.7rem;
   padding: 10px;
-  background: black;
   color: white;
   border-radius: 0.3rem;
 }
+
 .ser-box-title {
   font-size: 1.1rem;
   font-weight: 600;
