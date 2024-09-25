@@ -220,6 +220,17 @@ header.shadow {
   display: inline-block; /* Ajusta o comportamento do parágrafo */
 }
 
+.slide-description2 {
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.bx {
+  vertical-align: middle;
+}
+
 .home-overlay {
   position: absolute;
   top: 0;
