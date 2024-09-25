@@ -334,6 +334,7 @@ header.shadow {
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 1.5rem;
 }
+
 .ser-box {
   display: flex;
   flex-direction: column;
@@ -350,11 +351,12 @@ header.shadow {
   transition: 0.4s all ease-in-out;
 }
 
-.ser-box img {
-  width: 180px;
-  font-size: 0.7rem;
+.ser-box .bx {
+  width: 35px;
+  font-size: 1rem;
   padding: 10px;
-  color: white;
+  color: black;
+  background-color: #f0c711;
   border-radius: 0.3rem;
 }
 
