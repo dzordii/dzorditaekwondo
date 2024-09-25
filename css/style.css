@@ -994,7 +994,13 @@ header.shadow {
   .price-box-img {
     width: 90px;
   }
+  .copyright {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
 }
+
 @media (max-width: 316px) {
   .navbar {
     width: 100%;
