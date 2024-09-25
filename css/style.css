@@ -622,6 +622,8 @@ header.shadow {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--text-color);
+  flex-direction: column;
+  row-gap: 1rem;
 }
 .copyright p {
   font-size: 0.82rem;
@@ -931,6 +933,11 @@ header.shadow {
     padding-top: 3rem;
     padding-bottom: 1rem;
   }
+  .copyright {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
 }
 @media (max-width: 640px) {
   .faq-accorion {
@@ -939,6 +946,11 @@ header.shadow {
   }
   .accordion-text {
     flex: 1 1 10rem;
+  }
+  .copyright {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
 @media (max-width: 540px) {
@@ -953,6 +965,11 @@ header.shadow {
   }
   .prices-description {
     font-size: 0.85rem;
+  }
+  .copyright {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
 @media (max-width: 440px) {
