@@ -26,7 +26,7 @@
         <h2>Login</h2>
         <input type="text" id="username" placeholder="Nome de usuário" required>
         <input type="password" id="password" placeholder="Senha" required>
-        <button id="loginBtn">Entrar</button>
+        <button id="loginBtn" onclick="gtag('event', 'click', {'event_category': 'botao', 'event_label': 'botao-de-contato'});">Entrar</button>
         <p id="error-msg" class="error" style="display:none;">Nome de usuário ou senha incorretos!</p>
         <a href="index.html" class="back-to-home">Voltar para a página inicial</a>
     </div>
