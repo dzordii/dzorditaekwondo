@@ -60,6 +60,7 @@ header {
   width: 100%;
   background: rgba(255, 255, 255, 0.9);
   color: rgb(70, 70, 70);
+  box-shadow: 4px 4px 10px 2px rgba(23, 27, 38, 0.100);
   z-index: 200;
 }
 header.shadow {
