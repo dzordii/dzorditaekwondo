@@ -13,19 +13,20 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300;
+    width: 300px;
 }
 
 input[type="text"], input[type="password"] {
-    width: 95%;
+    width: 100%; /* Ajustado para 100% */
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não expanda o input */
 }
 
 button {
-    width: 100%;
+    width: 100%; /* Mantém o botão em 100% */
     padding: 10px;
     background-color: #000000;
     color: white;
@@ -48,8 +49,8 @@ button {
 }
 
 button:hover {
-    background-color: #ffffff;
-    color: black;
+    background-color: #083a85;
+    color: rgb(255, 255, 255);
 }
 
 .error {
@@ -62,6 +63,6 @@ button:hover {
 @media (max-width: 768px) {
     .login-container {
         padding: 15px;
-        max-width: 70%; /* Preenche a tela no celular */
+        max-width: 65%; /* Preenche a tela no celular */
     }
 }
