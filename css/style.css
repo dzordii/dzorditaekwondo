@@ -591,6 +591,16 @@ header.shadow {
   font-weight: 600;
   color: var(--text-color);
 }
+
+.locationbox {
+  width: 100%;
+}
+
+.locationitem iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
 /* Footer */
 .footer {
   display: grid;
