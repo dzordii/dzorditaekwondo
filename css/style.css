@@ -132,6 +132,22 @@ header.shadow {
   color: rgb(255, 255, 255);
   transition: 0.3s all linear;
 }
+
+.insta {
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  text-align: center; /* Centraliza o texto dentro do link */
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.insta i {
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+  margin-bottom: 2px;
+}
 /* Drop Login */
 .drop-login {
   position: absolute;
